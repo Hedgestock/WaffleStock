@@ -28,7 +28,7 @@ export default function PrivacyPolicy() {
                 For any inquiries about the game, please send us an email at <a href="mailto:thewafflestock+SplatFace@gmail.com">thewafflestock+SplatFace@gmail.com</a>.
             </p>
 
-            <p>Happy fishing</p>
+            <p>Happy jumping</p>
 
             <h3>Effective date: 28/11/2023</h3>
         </>

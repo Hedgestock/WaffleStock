@@ -28,7 +28,7 @@ export default function PrivacyPolicy() {
                 For any inquiries about the application, please send us an email at <a href="mailto:thewafflestock+Voc'cards@gmail.com">thewafflestock+Voc'cards@gmail.com</a>.
             </p>
 
-            <p>Happy fishing</p>
+            <p>Happy learning</p>
 
             <h3>Effective date: 28/11/2023</h3>
         </>
