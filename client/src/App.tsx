@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, useRoutes } from "react-router-dom";
+import { BrowserRouter, HashRouter, useRoutes } from "react-router-dom";
 
 import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -7,11 +7,11 @@ import Home from "./pages/home.tsx";
 
 function App() {
     return (
-        <BrowserRouter>
+        <HashRouter>
             {/* <NavBar /> */}
             <CustomRouter />
             {/* <Footer /> */}
-        </BrowserRouter>
+        </HashRouter>
     );
 }
 
