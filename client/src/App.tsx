@@ -3,6 +3,7 @@ import { BrowserRouter, useRoutes } from "react-router-dom";
 
 import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Home from "./pages/home.tsx";
 
 function App() {
     return (
@@ -44,7 +45,7 @@ const routes = Object.keys(pages).map((file) => {
 
 // Maps the directory structure to the urls
 function CustomRouter() {
-    return useRoutes(routes);
+    return useRoutes([...routes, { path: "/WaffleStock/", element: <Home /> }]);
 }
 
 export default App;

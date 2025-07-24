@@ -5,7 +5,7 @@ import { viteSingleFile } from "vite-plugin-singlefile"
 
 export default defineConfig({
   root: "./client",
-  base: "/WaffleStock",
+  // base: "/WaffleStock",
   build: {
     outDir: '../docs',
     emptyOutDir: true, // also necessary
