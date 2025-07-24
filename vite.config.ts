@@ -4,6 +4,10 @@ import deno from "@deno/vite-plugin";
 
 export default defineConfig({
   root: "./client",
+  build: {
+    outDir: '../docs',
+    emptyOutDir: true, // also necessary
+  },
   server: {
     port: 3000,
   },
