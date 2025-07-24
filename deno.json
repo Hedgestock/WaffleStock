@@ -18,7 +18,8 @@
         "react-bootstrap": "npm:react-bootstrap@^2.10.10",
         "react-dom": "npm:react-dom@^19.1.0",
         "react-router-dom": "npm:react-router-dom@^7.6.0",
-        "vite": "npm:vite@^6.3.5"
+        "vite": "npm:vite@^6.3.5",
+        "vite-plugin-singlefile": "npm:vite-plugin-singlefile@^2.3.0"
     },
     "compilerOptions": {
       "lib": [
