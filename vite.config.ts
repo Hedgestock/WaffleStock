@@ -4,7 +4,7 @@ import deno from "@deno/vite-plugin";
 
 export default defineConfig({
   root: "./client",
-  // base: "/WaffleStock",
+  base: "/WaffleStock",
   build: {
     outDir: '../docs',
     emptyOutDir: true, // also necessary

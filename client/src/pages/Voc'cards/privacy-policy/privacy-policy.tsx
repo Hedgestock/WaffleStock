@@ -30,7 +30,7 @@ export default function PrivacyPolicy() {
 
             <p>Happy learning</p>
 
-            <h3>Effective date: 28/11/2023</h3>
+            <h3>Effective date: 24/07/2025</h3>
         </>
     );
 }
