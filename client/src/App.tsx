@@ -45,7 +45,7 @@ const routes = Object.keys(pages).map((file) => {
 
 // Maps the directory structure to the urls
 function CustomRouter() {
-    return useRoutes([...routes, { path: "/WaffleStock/", element: <Home /> }]);
+    return useRoutes([...routes, { path: "/WaffleStock/", element: <Home /> }, { path: "/WaffleStock", element: <Home /> }, { path: "WaffleStock/", element: <Home /> }, { path: "WaffleStock", element: <Home /> }]);
 }
 
 export default App;
