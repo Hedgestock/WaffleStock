@@ -4,11 +4,12 @@ import { BrowserRouter, HashRouter, useRoutes } from "react-router-dom";
 import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from "./pages/home.tsx";
+import NavBar from "./components/navbar/NavBar.tsx";
 
 function App() {
     return (
         <HashRouter>
-            {/* <NavBar /> */}
+            <NavBar />
             <CustomRouter />
             {/* <Footer /> */}
         </HashRouter>
@@ -45,7 +46,7 @@ const routes = Object.keys(pages).map((file) => {
 
 // Maps the directory structure to the urls
 function CustomRouter() {
-    return useRoutes([...routes, { path: "/WaffleStock/", element: <Home /> }, { path: "/WaffleStock", element: <Home /> }, { path: "WaffleStock/", element: <Home /> }, { path: "WaffleStock", element: <Home /> }]);
+    return useRoutes([...routes, { path: "/WaffleStock/", element: <Home /> }]);
 }
 
 export default App;
