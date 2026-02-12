@@ -13,6 +13,7 @@ ul.navbar li {
     border: 2px transparent solid;
     border-radius: 1rem;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 ul.navbar li:hover {
@@ -22,5 +23,5 @@ ul.navbar li:hover {
 }
 
 ul.navbar #home {
-    
+
 }
