@@ -1,17 +1,19 @@
 import React from "react";
-import { BrowserRouter, HashRouter, useRoutes } from "react-router-dom";
+import { HashRouter, useRoutes } from "react-router-dom";
 
 import "./App.css";
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from "./pages/home.tsx";
-import NavBar from "./components/navbar/NavBar.tsx";
+import NavBar from "./components/NavBar/NavBar.tsx";
+import Footer from "./components/Footer/Footer.tsx";
 
 function App() {
     return (
         <HashRouter>
             <NavBar />
-            <CustomRouter />
-            {/* <Footer /> */}
+            <div style={{width: "400px", backgroundColor:"#333333", justifySelf:"center", padding:"1em"}}>
+                <CustomRouter />
+            </div>
+            <Footer />
         </HashRouter>
     );
 }

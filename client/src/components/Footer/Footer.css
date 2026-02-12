@@ -1,11 +1,11 @@
-ul.navbar {
-    list-style-type: none;
+footer {
     background-color: var(--primary-bg-color);
+}
+
+footer ul {
+    list-style-type: none;
     padding: 1rem;
     margin: 0;
-
-    position: sticky;
-    top: 0;
 
     display: flex;
     flex-direction: row;
@@ -13,7 +13,7 @@ ul.navbar {
     gap: 1rem;
 }
 
-ul.navbar li {
+footer ul li {
     background-color: var(--secondary-bg-color);
     padding: .5rem 1rem;
     border: 2px transparent solid;
@@ -22,12 +22,8 @@ ul.navbar li {
     cursor: pointer;
 }
 
-ul.navbar li:hover {
+footer ul li:hover {
     color: var(--tertiary-color);
     background-color: var(--tertiary-bg-color);
     border-color: var(--primary-color);
-}
-
-ul.navbar #home {
-
 }
