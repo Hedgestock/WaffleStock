@@ -10,7 +10,7 @@ function App() {
     return (
         <HashRouter>
             <NavBar />
-            <div style={{width: "400px", backgroundColor:"#333333", justifySelf:"center", padding:"1em"}}>
+            <div className="main-container">
                 <CustomRouter />
             </div>
             <Footer />

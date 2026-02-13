@@ -10,6 +10,7 @@ ul.navbar {
     display: flex;
     flex-direction: row;
     justify-content: start;
+    align-items: center;
     gap: 1rem;
 }
 
@@ -17,7 +18,7 @@ ul.navbar li {
     background-color: var(--secondary-bg-color);
     padding: .5rem 1rem;
     border: 2px transparent solid;
-    border-radius: 1rem;
+    border-radius: .5rem;
     transition: 0.3s;
     cursor: pointer;
 }
@@ -26,8 +27,11 @@ ul.navbar li:hover {
     color: var(--tertiary-color);
     background-color: var(--tertiary-bg-color);
     border-color: var(--primary-color);
+    scale: 1.2;
 }
 
 ul.navbar #home {
-
+    padding: 0;
+    background-color: transparent;
+    border: none;
 }
