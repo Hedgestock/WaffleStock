@@ -11,6 +11,7 @@
         "@vitejs/plugin-react": "npm:@vitejs/plugin-react@^4.4.1",
         "react": "npm:react@^19.1.0",
         "react-dom": "npm:react-dom@^19.1.0",
+        "react-responsive-masonry": "npm:react-responsive-masonry@^2.7.1",
         "react-router-dom": "npm:react-router-dom@^7.6.0",
         "vite": "npm:vite@^6.3.5"
     },

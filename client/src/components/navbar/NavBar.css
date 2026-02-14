@@ -19,7 +19,7 @@ ul.navbar li {
     padding: .5rem 1rem;
     border: 2px transparent solid;
     border-radius: .5rem;
-    transition: 0.3s;
+    transition: 0.2s;
     cursor: pointer;
 }
 

@@ -1,4 +1,6 @@
 :root {
+  height: 100%;
+
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -6,7 +8,7 @@
   color-scheme: light dark;
 
   --primary-color: #3E065F;
-  --secondary-color: #700B97;
+  --secondary-color: #700B98;
   --tertiary-color: #8E05C2;
   --primary-bg-color: #111111;
   --secondary-bg-color: #222222;
@@ -20,12 +22,12 @@
 
   color: var(--text-color);
   background-color: var(--secondary-bg-color);
-  height: 100%;
 }
 
 body {
   margin: 0;
   height: 100%;
+
   background-color: var(--secondary-bg-color);
 }
 
@@ -36,8 +38,18 @@ body {
 }
 
 .main-container {
+  width: calc(100% - 2rem);
   max-width: 1280px;
-  background-color: var(--tertiary-bg-color);
+  box-sizing: border-box;
   justify-self: center;
-  padding: 1em;
+  padding: 1rem;
+  margin: 0 1rem;
+
+  background-color: var(--tertiary-bg-color);
 }
+
+/* @media (max-width: 768px) {
+  .main-container {
+    width: 100%;
+  }
+} */

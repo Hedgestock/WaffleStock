@@ -5,6 +5,7 @@ import "./App.css";
 import Home from "./pages/home.tsx";
 import NavBar from "./components/NavBar/NavBar.tsx";
 import Footer from "./components/Footer/Footer.tsx";
+import Loading from "./components/Loading/Loading.tsx";
 
 function App() {
     return (
@@ -39,7 +40,7 @@ const routes = Object.keys(pages).map((file) => {
         path: routePath(file),
         element: React.createElement(
             React.Suspense,
-            { fallback: <div>Loading...</div> },
+            { fallback: <Loading/> },
             React.createElement(React.lazy(pages[file] as any))
         ),
     })
