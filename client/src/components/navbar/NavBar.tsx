@@ -7,9 +7,10 @@ export default function NavBar() {
             <NavButton to="" id="home">
                 <img style={{width: "3rem", height: "3rem"}} src="/WaffleStock/images/Logo_WaffleStock.webp" />
             </NavButton>
+            <div style={{flex: 1}}/>
             <NavButton to="/games">Games</NavButton>
             <NavButton to="/us">Us</NavButton>
-            <NavButton to="/contact">Contact</NavButton>
+            {/* <NavButton to="/contact">Contact</NavButton> */}
         </ul>
     );
 }

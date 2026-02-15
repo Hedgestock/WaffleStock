@@ -57,6 +57,9 @@ body {
   scale: 1.03;
 }
 
+img {
+  display: block;
+}
 
 /* @media (max-width: 768px) {
   .main-container {

@@ -27,9 +27,9 @@
 
 .itch-embed {
     display: flex;
-    width: 552px;
+    /* width: 552px; */
     min-width: 208px;
-    height: 171px;
+    /* height: 171px; */
     grid-column: span 3;
 }
 

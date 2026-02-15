@@ -3,6 +3,6 @@ import "./games.css"
 
 export default function Games() {
     return (
-        <GamesDisplay/>
+        <GamesDisplay published jams wip/>
     )
 }

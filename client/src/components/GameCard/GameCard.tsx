@@ -27,8 +27,8 @@ export default function GameCard(props: IGameCardProps) {
             <iframe frameBorder="0" className="itch-embed scaler"
                 onLoad={() => { setLoading(false); setWidth(552); setHeight(171) }}
                 src={`https://itch.io/embed/${itchId}?border_width=3&bg_color=${rootElement.getPropertyValue("--primary-bg-color").slice(1)}&fg_color=${rootElement.getPropertyValue("--text-color").slice(1)}&link_color=${rootElement.getPropertyValue("--secondary-color").slice(1)}&border_color=${rootElement.getPropertyValue("--primary-color").slice(1)}`}
-                // width={width} height={height} />
-                />
+                width={width} height={height}
+            />
         </>
 
     const googlePlayWidget =
@@ -36,9 +36,10 @@ export default function GameCard(props: IGameCardProps) {
             <img className="google-play-button" src="/WaffleStock/images/GetItOnGooglePlay.png" />
         </a>
 
-    const appleWidget = <a>
-        <img className="google-play-button scaler" src="/WaffleStock/images/GetItOnGooglePlay.png" />
-    </a>
+    const appleWidget =
+        <a>
+            <img className="google-play-button scaler" src="/WaffleStock/images/GetItOnGooglePlay.png" />
+        </a>
 
     return <div className="game-card">
         <h2>{gameTitle}</h2>
@@ -46,6 +47,6 @@ export default function GameCard(props: IGameCardProps) {
         {itchId && itchId != "test" && itchWidget}
         {googlePlayURL && googlePlayWidget}
         {appleAppStoreURL && appleWidget}
-        {privacyPolicy && <Link to={`/${pagePath}/privacy-policy`} className="scaler" style={{whiteSpace: "nowrap"}}>privacy policy</Link>}
+        {privacyPolicy && <Link to={`/${pagePath}/privacy-policy`} className="scaler" style={{ whiteSpace: "nowrap" }}>privacy policy</Link>}
     </div>
 }
