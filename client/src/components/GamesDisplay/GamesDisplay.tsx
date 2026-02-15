@@ -3,12 +3,12 @@ import "./GamesDisplay.css"
 
 export default function GamesDisplay() {
     return <div className="games-display">
-                <GameCard
+        {/* <GameCard
             gameTitle="test"
             pagePath="test"
             itchId="test"
             googlePlayURL="https://play.google.com/store/apps/details?id=org.wafflestock.ftf"
-            privacyPolicy />
+            privacyPolicy /> */}
         <GameCard
             gameTitle="Fish the Fishes"
             pagePath="FishTheFishes"

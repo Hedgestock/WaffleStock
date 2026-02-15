@@ -47,8 +47,6 @@ body {
   margin: 0 1rem;
 
   background-color: var(--tertiary-bg-color);
-
-  overflow: hidden;
 }
 
 .scaler {
