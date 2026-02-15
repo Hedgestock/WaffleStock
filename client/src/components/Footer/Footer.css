@@ -1,5 +1,7 @@
 footer {
     background-color: var(--primary-bg-color);
+    position: sticky;
+    bottom: 0;
 }
 
 footer ul {

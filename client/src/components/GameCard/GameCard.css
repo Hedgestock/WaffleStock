@@ -1,6 +1,7 @@
 .game-card {
-    /* grid-template-columns: min-content; */
+    grid-auto-columns: min-content min-content 1fr;
     display: grid;
+    min-width: 552px;
     border-radius: .5rem;
     /* margin: -1rem; */
     padding: 1rem;
@@ -16,20 +17,17 @@
     scale: 1.05;
 }
 
-.game-card .scaler {
-    transition: 0.2s;
-}
-
-.game-card .scaler:hover {
-    scale: 1.03;
-}
-
 .game-card>h2 {
     display: none;
     margin: 0;
 }
 
 .itch-embed {
+    display: flex;
+    max-width: 552px;
+    min-width: 208px;
+    width: 100%;
+    height: 171px;
     grid-column: span 3;
 }
 
@@ -45,6 +43,7 @@
 
     .game-card {
         grid-template-columns: min-content;
+            min-width: 0px;
     }
 
     .itch-embed {

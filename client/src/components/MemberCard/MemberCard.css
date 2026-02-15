@@ -1,0 +1,13 @@
+.member-card {
+    max-width: 600px;
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: var(--secondary-bg-color);
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.member-card h3 {
+    margin: 0;
+}

@@ -47,7 +47,18 @@ body {
   margin: 0 1rem;
 
   background-color: var(--tertiary-bg-color);
+
+  overflow: hidden;
 }
+
+.scaler {
+  transition: 0.2s;
+}
+
+.scaler:hover {
+  scale: 1.03;
+}
+
 
 /* @media (max-width: 768px) {
   .main-container {
