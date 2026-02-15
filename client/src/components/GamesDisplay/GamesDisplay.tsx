@@ -38,7 +38,6 @@ export default function GamesDisplay(props: IGameDisplayProps) {
             <>
                 <h2>Gamejam submissions</h2>
                 <div className="games-display">
-
                     <GameCard
                         gameTitle="FlipPinball"
                         pagePath="FlipPinball"
@@ -66,7 +65,8 @@ export default function GamesDisplay(props: IGameDisplayProps) {
                     <GameCard
                         gameTitle="HexNihilo"
                         pagePath="HexNihilo"
-                        itchId="3480768" />
+                        itchId="3480768"
+                        privacyPolicy />
                 </div>
             </>
         }

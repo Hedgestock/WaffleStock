@@ -61,6 +61,26 @@ img {
   display: block;
 }
 
+a {
+  text-decoration: none;
+  color: var(--tertiary-color);
+}
+
+a:visited {
+  color: var(--secondary-color);
+}
+
+a:hover, a:visited:hover {
+  color: var(--primary-color);
+}
+
+
+*::search-text {
+  color: var(--text-color);
+  text-decoration: underline overline var(--tertiary-color);
+}
+
+
 /* @media (max-width: 768px) {
   .main-container {
     width: 100%;

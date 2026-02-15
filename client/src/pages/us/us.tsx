@@ -15,15 +15,19 @@ export default function Us() {
                     The WaffleStock team is composed of <Link to="./beewaffle">Beewaffle</Link>, in charge of the artistic direction as well as producing the assets of our games,
                     and <Link to="./hedgestock">Hedgestock</Link> programmer and lead gameplay designer.
                 </p>
-                <GamesDisplay published/>
+                <GamesDisplay published />
             </div>
             <div className="col">
                 <h1>The Team</h1>
                 <h2>Core members</h2>
                 <div className="members-container">
                     <MemberCard nick="hedgestock" />
-                    <MemberCard nick="beewaffle" reverse />
+                    {/* <MemberCard nick="beewaffle" reverse /> */}
                 </div>
+                {/* <h2>Partners</h2>
+                <div className="members-container">
+                    <MemberCard nick="hedgestock" />
+                </div> */}
             </div>
         </div>
     )

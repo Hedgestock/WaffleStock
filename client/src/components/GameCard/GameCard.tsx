@@ -47,6 +47,6 @@ export default function GameCard(props: IGameCardProps) {
         {itchId && itchId != "test" && itchWidget}
         {googlePlayURL && googlePlayWidget}
         {appleAppStoreURL && appleWidget}
-        {privacyPolicy && <Link to={`/${pagePath}/privacy-policy`} className="scaler" style={{ whiteSpace: "nowrap" }}>privacy policy</Link>}
+        {privacyPolicy && <Link to={`/${pagePath}/privacy-policy`} style={{ whiteSpace: "nowrap" }}>privacy policy</Link>}
     </div>
 }
