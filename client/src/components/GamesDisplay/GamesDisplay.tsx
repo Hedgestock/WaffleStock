@@ -61,12 +61,12 @@ export default function GamesDisplay(props: IGameDisplayProps) {
                     <GameCard
                         gameTitle="Space Shooter"
                         pagePath="SpaceShooter"
-                        itchId="4270046" />
+                        itchId="4270046"
+                        privacyPolicy />
                     <GameCard
                         gameTitle="HexNihilo"
                         pagePath="HexNihilo"
-                        itchId="3480768"
-                        privacyPolicy />
+                        itchId="3480768" />
                 </div>
             </>
         }
