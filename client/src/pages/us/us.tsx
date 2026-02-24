@@ -12,8 +12,10 @@ export default function Us() {
                     Wafflestock is really a passion project about producing simple but addictive games concocted with love and a touch of depth.
                     <br />
                     <br />
-                    The WaffleStock team is composed of <Link to="./beewaffle">Beewaffle</Link>, in charge of the artistic direction as well as producing the assets of our games,
-                    and <Link to="./hedgestock">Hedgestock</Link> programmer and lead gameplay designer.
+                    The WaffleStock team is composed of Beewaffle, in charge of the artistic direction as well as producing the assets of our games,
+                    and Hedgestock programmer and lead gameplay designer.
+                    {/* The WaffleStock team is composed of <Link to="./beewaffle">Beewaffle</Link>, in charge of the artistic direction as well as producing the assets of our games,
+                    and <Link to="./hedgestock">Hedgestock</Link> programmer and lead gameplay designer. */}
                 </p>
                 <GamesDisplay published />
             </div>
@@ -22,12 +24,13 @@ export default function Us() {
                 <h2>Core members</h2>
                 <div className="members-container">
                     <MemberCard nick="hedgestock" />
-                    {/* <MemberCard nick="beewaffle" reverse /> */}
+                    <MemberCard nick="beewaffle" reverse />
                 </div>
-                {/* <h2>Partners</h2>
+                <h2>Partners</h2>
                 <div className="members-container">
-                    <MemberCard nick="hedgestock" />
-                </div> */}
+                    <MemberCard nick="mladotouan" />
+                    <MemberCard nick="odun" reverse/>
+                </div>
             </div>
         </div>
     )

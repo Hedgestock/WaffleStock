@@ -29,8 +29,8 @@ export default function MemberCard(props: IMemberCardProps) {
         <div className="member-card scaler" style={{ flexDirection: reverse ? "row-reverse" : "row" }}
             // onClick={handleNavigation}
             >
-            <img style={{ borderRadius: "100%" }} src={`/WaffleStock/members/${nick}/headshot.jpg`} width={128} height={128} />
-            <div>
+            <img style={{ borderRadius: "100%", transform: reverse? "scaleX(-1)": "" }} src={`/WaffleStock/members/${nick}/headshot.jpg`} width={128} height={128} />
+            <div style={{width: "100%"}}>
                 <h3>{memberInfo.name} "{memberInfo.pseudo}" {memberInfo.family_name}</h3>
                 <p dangerouslySetInnerHTML={{ __html: memberInfo.short_desc ?? "" }} />
             </div>
