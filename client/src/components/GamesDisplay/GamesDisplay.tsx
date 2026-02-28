@@ -27,7 +27,7 @@ export default function GamesDisplay(props: IGameDisplayProps) {
                         privacyPolicy />
                     <GameCard
                         gameTitle="Voc'cards"
-                        pagePath="VocCards"
+                        pagePath="Voc'cards"
                         itchId="4270301"
                         googlePlayURL="https://play.google.com/store/apps/details?id=org.wafflestock.voccard"
                         privacyPolicy />
