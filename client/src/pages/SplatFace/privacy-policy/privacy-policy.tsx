@@ -23,7 +23,7 @@ export default function PrivacyPolicy() {
             <h2>Contact</h2>
 
             <p>
-                For any inquiries about the game, please send us an email at <a href="mailto:thewafflestock+SplatFace@gmail.com">thewafflestock+SplatFace@gmail.com</a>.
+                For any inquiries about the game, please send us an email at <a href="mailto:splatface@wafflestock.com">splatface@wafflestock.com</a>.
             </p>
 
             <p>Happy jumping</p>

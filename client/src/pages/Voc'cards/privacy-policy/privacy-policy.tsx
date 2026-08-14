@@ -23,7 +23,7 @@ export default function PrivacyPolicy() {
             <h2>Contact</h2>
 
             <p>
-                For any inquiries about the application, please send us an email at <a href="mailto:thewafflestock+Voc'cards@gmail.com">thewafflestock+Voc'cards@gmail.com</a>.
+                For any inquiries about the application, please send us an email at <a href="mailto:voc-cards@wafflestock.com">voc-cards@wafflestock.com</a>.
             </p>
 
             <p>Happy learning</p>

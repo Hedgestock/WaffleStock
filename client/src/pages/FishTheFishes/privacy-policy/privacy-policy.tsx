@@ -23,7 +23,7 @@ export default function PrivacyPolicy() {
             <h2>Contact</h2>
 
             <p>
-                For any inquiries about the game, please send us an email at <a href="mailto:thewafflestock+FTF@gmail.com">thewafflestock+FTF@gmail.com</a>.
+                For any inquiries about the game, please send us an email at <a href="mailto:fishthefishes@wafflestock.com">fishthefishes@wafflestock.com</a>.
             </p>
 
             <p>Happy fishing</p>
